@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package lms;
 
 /**
@@ -10,5 +11,9 @@ package lms;
  * @author adminit
  */
 public class Book {
-    
+  
+    private static int bookID;
+    Book(int id){
+    bookID=id;
+    }
 }
